@@ -1,3 +1,9 @@
 module ActionCable
-  VERSION = '0.0.3'
+  module VERSION
+    MAJOR = 0
+    MINOR = 0
+    TINY = 3
+
+    STRING = [MAJOR, MINOR, TINY].join(".")
+  end
 end
